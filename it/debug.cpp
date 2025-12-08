@@ -139,7 +139,7 @@ void _uitoa(string &buf, FormatParams_ &p, uint64 value) {
     value %= d;
     d /= p.base;
     if (n || dgt > 0 || d == 0) {
-      buf += dgt + (dgt < 10 ? '0' : (p.uc ? 'A' : 'a') - 10);
+      buf += (char)(dgt + (dgt < 10 ? '0' : (p.uc ? 'A' : 'a') - 10));
       ++n;
     }
   }

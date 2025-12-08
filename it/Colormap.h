@@ -19,7 +19,7 @@
 #define COLORMAP_H
 #include <vector>
 #include <string>
-
+typedef unsigned int uint;
 class Colormap {
 public:
   // Classic: tabulating RGB per index 0..255
