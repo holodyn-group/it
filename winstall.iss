@@ -48,7 +48,16 @@ Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release
 Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\it.zip"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\maps.zip"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\template.txt"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\*.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\iconengines\*"; DestDir: "{app}\iconengines"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\imageformats\*"; DestDir: "{app}\imageformats"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\networkinformation\*"; DestDir: "{app}\networkinformation"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\styles\*"; DestDir: "{app}\styles"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\generic\*"; DestDir: "{app}\generic"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\platforms\*"; DestDir: "{app}\platforms"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\tls\*"; DestDir: "{app}\tls"; Flags: ignoreversion
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\translations\*"; DestDir: "{app}\translations"; Flags: ignoreversion
+
+Source: "C:\Users\Usuario\Code\it\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Release\*.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
