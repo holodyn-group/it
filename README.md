@@ -1,10 +1,13 @@
-# It - Complex Function Iteration
+# ![Logo](icons/icon_64x64.png) IT: Complex Iteration Software 
 
-## Introduction
+## [Holodyn Research Group](https://www.ub.edu/dynsys/holodyn/)
 
-![Logo](icons/icon_64x64.png)
 
-*It* is a desktop application for researchers in complex dynamical systems.
+Funded by grant PID2023-147252NB-I00, with funds from MICIU/AEI/10.13039/501100011033 y FEDER/UE.
+
+
+
+*IT* is a desktop application for researchers in complex dynamical systems.
 
 ![Screenshot](img/screenshot.png)
 
@@ -18,9 +21,13 @@ You can have a quick look at some of the possibilities of It in the screenshots 
 
 A [**manual**](doc/manual.md) is provided explaining how to code your own functions.
 
-*It* works on MacOS, Linux, and Windows. You can **[download](doc/download.md)** binaries -- see there for installation instructions.
+*It* works on MacOS, Linux, and Windows. The latest releases are found at https://github.com/holodyn-group/it/releases/latest/. You can find **[installation instructions here.](doc/download.md)**
 
 *It* can be used free of charge under the MIT license. Should you require support, please contact the maintainer.
 
+Created by Christian Mannes
 
-@2012-2025 Mannes Technology
+Copyright @2012-2026 [Holodyn Group](https://www.ub.edu/dynsys/holodyn/)
+
+
+![Supported](img/logo-ministry.jpg)

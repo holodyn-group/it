@@ -504,7 +504,7 @@ void MainWindow::on_actionImage_triggered() { // show code editor
 }
 
 void MainWindow::on_actionHelp_triggered() { // show help
-  QDesktopServices::openUrl(QUrl("https://github.com/christian-mannes/it/blob/main/README.md"));
+  QDesktopServices::openUrl(QUrl("https://github.com/holodyn-group/it/blob/main/README.md"));
   //ui->stackedWidget->setCurrentIndex(HELP_TAB);
   //ui->helpView->load(QUrl("https://mannes-tech.com/It/manual.html"));
   //ui->helpBrowser->setHtml("<h1>Hi</h1><p>this</p>");
@@ -1255,7 +1255,7 @@ void MainWindow::on_actionAbout_triggered() {
       "<h3>Development:</h3>"
       "<p>&nbsp;&nbsp;&nbsp;Christian Mannes</p>"
       "<h3>Web Page:</h3>"
-      "<p>&nbsp;&nbsp;&nbsp;https://https://github.com/christian-mannes/it</p>"
+      "<p>&nbsp;&nbsp;&nbsp;https://https://github.com/holodyn-group/it</p>"
       "<p><i>Copyright (c) 1998-2025 Mannes Technology. All rights reserved</i></p>").arg(xstr(APP_VERSION)));
 }
 
