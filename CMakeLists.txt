@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(It VERSION 4.0.4 LANGUAGES CXX)
+project(It VERSION 4.0.5 LANGUAGES CXX)
 if (WIN32)
     set(CPACK_PACKAGE_NAME "It")
-    set(CPACK_PACKAGE_VERSION "4.0.3")
+    set(CPACK_PACKAGE_VERSION "4.0.5")
     set(CPACK_GENERATOR "NSIS")
 endif()
 

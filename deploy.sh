@@ -75,5 +75,6 @@ rm -rf dmg_contents
 
 # 5. Copy dmg to download directory (doc)
 cp It.dmg ../../doc
+echo "Copied to doc"
 
 echo "DONE!"
